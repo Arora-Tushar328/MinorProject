@@ -86,7 +86,7 @@ function OrgCards({ orginsation }) {
           >
             Send Request
           </Button> */}
-          {user ? (
+          {/* {user ? (
             <Box
               as="button"
               variant="solid"
@@ -124,7 +124,7 @@ function OrgCards({ orginsation }) {
             >
               Send Request
             </Box>
-          )}
+          )} */}
           <Button
             variant="ghost"
             colorScheme="blue"
