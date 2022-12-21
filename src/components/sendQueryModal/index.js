@@ -37,6 +37,7 @@ const QueryModal = ({ onClose, onOpen, isOpen, orginsation }) => {
     city: user.address.city,
     pin_code: user.address.pin_code,
     state: user.address.state,
+    user: user._id,
     purpose: ' ',
     water_req: '',
   });
@@ -53,7 +54,8 @@ const QueryModal = ({ onClose, onOpen, isOpen, orginsation }) => {
         state: queryInfo.state,
         pin_code: queryInfo.pin_code,
       },
-      user:'637cdc95d266e9d82bcec623',
+      // user:'637cdc95d266e9d82bcec623',
+      user:queryInfo.user,
       org: orginsation._id,
       price: orginsation.price,
       requirements: queryInfo.water_req,
